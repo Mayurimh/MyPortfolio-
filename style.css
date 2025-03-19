@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* mainbody */
+#mainBody{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(3, 25, 46),rgb(67, 140, 209));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameBox{
+    width:40%;
+}
+
+.nameBox>h1{
+    color: aliceblue;
+    font-size: 150px;
+}
+
+.hello{
+    color: aliceblue;
+    font-size: 40px;
+}
+.typed-design{
+    color: rgb(228, 236, 238);
+    font-size: 30px;
+}
+nav{
+    width: 6vw;
+    height: 60vh;
+    /* border: 2px solid black; */
+    position: fixed;
+    left: 10px;
+    
+}
+nav>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px;
+    width: 4vw;
+    height: 4vw;
+    background: black;
+}
+nav>div>a>i{
+    color:white;
+    font-size: 30px;
+}
+
+.pdfBtn{
+    color: white;
+    background-color: black;
+    width: 80%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.pdfBtn:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.pdfBtn>a{
+    color: rgb(220, 205, 205) !important;
+    text-decoration: none; 
+}
+/* about */
+
+.aboutSection{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(67, 140, 209),rgb(3, 25, 46));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+}
+
+.aboutSection>main{
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.aboutSection>main>article{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.about{
+    width:90%;
+    height: 60%;
+    /* background-color: rgb(9, 37, 28); */
+    display: flex;
+}
+
+
+.aboutArticle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+    color:aliceblue;
+}
+.about>div{
+    width: 50%;
+    height: 100%;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.365);
+    border-radius: 10px;
+    margin: 2px;
+}
+.about li{
+    padding: 5px;
+}
+.about ul{
+    padding: 5px;
+}
+.aboutSection h1{
+    font-size: 40px;
+}
+.aboutArticle>p{
+    font-size: 20px;
+}
+
+/* projects */
+
+.projects{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(3, 25, 46),rgb(67, 140, 209));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects>main{
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid black; */
+    /* border-radius: 30px; */
+}
+.projects>main>h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.projects>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects>main>article>div{
+    width:45%;
+    height: 45%;
+    /* border: 3px solid; */
+    background-color: rgba(0, 0, 0, 0.119);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    padding: 30px;
+    color: rgb(215, 211, 211);
+}
+.projects>main>article>div>h1{
+    font-size: 30px;
+}
+.projects>main>article>div>p{
+    font-size: 20px;
+}
+.projects>main>article>div>h1>a{
+    color: rgb(236, 229, 229) !important;
+    text-decoration: none; 
+}
+
+/* expereince */
+.experience, .achivement, .contact{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(67, 140, 209),rgb(3, 25, 46));  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achivement{
+    background-image:linear-gradient(rgb(3, 25, 46),rgb(67, 140, 209));
+}
+
+.experience>main>article>h3>a{
+    color: rgb(236, 229, 229) !important;
+    text-decoration: none; 
+}
+.experience>main, .achivement>main, .contact>main{
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid black; */
+    /* border-radius: 30px; */
+
+}
+.experience>main>h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color:aliceblue;
+}
+.experience>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    color:rgb(232, 221, 221) ;
+}
+
+.experience>main>article>h3{
+    font-size: 30px;
+
+}
+.experience>main>article>p{
+    font-size: 20px;
+}
+
+.achivement>main>h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color:aliceblue;
+}
+.achivement>main>article{
+    width: 100%;
+    height: 80%;
+    /* background-color: rgba(0, 0, 0, 0.144); */
+    display: flex;
+    border-radius: 10px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.achivement>main>article>div{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.153);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+}
+.achivement>main>article>div>h2{
+    color:rgb(232, 221, 221);
+    font-size: 30px;   
+}
+
+.achivement>main>article>div>div
+{
+    margin-top:20px ;
+    padding: 30px;
+}
+
+.achivement>main>article li{
+    padding: 10px;
+    font-size: 20px;
+}
+.achivement>main>article>div>div>ul>li{
+    color:rgb(203, 199, 199) ;
+}
+.contact>main>h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color:aliceblue;
+}
+
+.contact>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.info, .contactForm{
+    width: 45%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.365);
+    border-radius: 10px;
+    padding: 20px;
+}
+.info p{
+    font-size:17px ;
+    color: rgb(145, 140, 140);
+    padding: 5px;
+}
+
+.info a{
+    color: aliceblue;
+}
+
+.allLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+.allLinks a{
+    color: aliceblue;
+}
+
+/* form */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+input, textarea{
+    height: 50px;
+    font-size: 15px;
+    background-color: rgba(249, 248, 248, 0.205);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+textarea{
+    height: 200px;
+}
+form>a{
+    display: inline-block;
+    color: rgb(145, 140, 140);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background: rgb(16, 13, 13);
+    border-radius: 10px;
+}
